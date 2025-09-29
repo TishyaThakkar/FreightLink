@@ -67,3 +67,31 @@ The system tracks customers, operators, vehicles, and shipments, and provides **
 
 ---
 
+### ⚙️ Installation
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/TishyaThakkar/FreightLink.git
+    cd FreightLink
+    ```
+2. **Create the database**:
+    ```sql
+    mysql -u your_username -p < sql/schema/create_database.sql >
+    ```
+3. **Create tables**:
+    ```sql
+    mysql -u your_username -p freightlink < sql/schema/create_tables.sql
+    ```
+4. **Insert sample data**:
+    ```sql
+    mysql -u your_username -p freightlink < sql/data/insert_sample_data.sql
+    ```
+5. **Create views**:
+    ```sql
+    mysql -u your_username -p freightlink < sql/views/create_views.sql
+    ```
+6. **Run sample queries**:
+    ```sql
+    mysql -u your_username -p freightlink < sql/queries/sample_queries.sql
+    ```
+---
