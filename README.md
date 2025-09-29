@@ -76,7 +76,7 @@ The system tracks customers, operators, vehicles, and shipments, and provides **
     ```
 2. **Create the database**:
     ```sql
-    mysql -u your_username -p < sql/schema/create_database.sql >
+    mysql -u your_username -p < sql/schema/create_database.sql
     ```
 3. **Create tables**:
     ```sql
